@@ -27,6 +27,10 @@
    .carousel-item img {
       height: 50vh; /* Altura del 50% del viewport height (ajústalo según tus necesidades) */
     }
+
+    .cta p{
+      font-size: 1.4rem !important;
+  }
 }
 
 

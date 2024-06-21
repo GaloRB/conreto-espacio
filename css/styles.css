@@ -4,8 +4,12 @@
     --ground-color: #9e8451;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 section p{
@@ -60,6 +64,10 @@ section p{
     text-shadow: 26px 8px 10px rgba(0,0,0,0.86);
 }
 
+.header a{
+    font-size: 1.2rem;
+}
+
 .container p{
     font-size: 1.5rem;
 }
@@ -90,6 +98,16 @@ section p{
     margin-bottom: 20px;
     color: var(--ground-color);
 }
+
+.cta{
+    background-color: var(--ground-color);
+    color: #fff;
+}
+
+.cta p{
+    font-size: 1.7rem !important;
+}
+
 .footer {
     background-color: #333;
     color: #fff;
@@ -97,7 +115,7 @@ section p{
     text-align: center;
 }
 .contact {
-    background-color: #f8f9fa;
+    background-color: #e4e3e3;
 }
 
 .link-contact{
@@ -134,6 +152,13 @@ section p{
 
 /* ---------- carousel ------------- */
 
+.section-carousel {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .carousel-item img {
     height: 100vh; /* Altura del 50% del viewport height (ajústalo según tus necesidades) */
     width: auto; /* Ancho automático para mantener la proporción */
@@ -149,6 +174,12 @@ section p{
   /* Cambiar color del ícono "Next" */
   .carousel-control-next-icon {
     filter: invert(100%); /* Invierte el color del icono */
+  }
+
+  /* ------ gallery ------ */
+
+  .gallery h4{
+    font-size: 2rem;
   }
 
 /** --------------------------animaciones----------------------*/
