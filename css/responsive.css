@@ -24,6 +24,9 @@
    .container h1{
     font-size: 2.7rem;
    }
+   .carousel-item img {
+      height: 50vh; /* Altura del 50% del viewport height (ajústalo según tus necesidades) */
+    }
 }
 
 
