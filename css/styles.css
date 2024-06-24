@@ -116,6 +116,14 @@ section p{
     font-size: 1.7rem !important;
 }
 
+.radius{
+    border-radius: 3%;
+    margin: 3px;
+    box-shadow: 3px 6px 17px -5px rgba(0,0,0,0.88);
+    -webkit-box-shadow: 3px 6px 17px -5px rgba(0,0,0,0.88);
+    -moz-box-shadow: 3px 6px 17px -5px rgba(0,0,0,0.88);
+}
+
 .footer {
     background-color: #333;
     color: #fff;
